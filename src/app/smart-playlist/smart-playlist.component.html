@@ -1,0 +1,26 @@
+<aside>
+    <img class="logo" src="assets/images/videogular.png">
+    <ul class="menu">
+        <li *ngFor="let item of playlist; let $index = index"
+            (click)="onClickPlaylistItem(item, $index)"
+            [class.selected]="item === currentItem">
+            {{ item.title }}
+        </li>
+    </ul>
+</aside>
+
+<section class="player-container">
+	<mat-video #media
+		(onPlayerReady)="onPlayerReady($event)"
+		[src]="currentItem.src"
+		id="singleVideo"
+		preload="auto"
+		crossorigin>
+
+		<source matVideoSource src="http://mande-dev.com/static/TestVideoAboutSite.mp4" type="video/mp4">
+		<source src="tutorial.webm" type="video/webm">
+		<track matVideoTrack src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+		<track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+	</mat-video>
+
+</section>
