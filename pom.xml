@@ -29,8 +29,7 @@
 
   <build>
       <plugins>
-        <!-- https://stackoverflow.com/questions/26278968/rpm-file-not-generated-using-maven-rpm-plugin -->
-
+        
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>exec-maven-plugin</artifactId>
