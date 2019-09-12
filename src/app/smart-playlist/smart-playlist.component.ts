@@ -28,8 +28,8 @@ export class SmartPlaylistComponent implements OnInit {
             type: 'video/mp4'
         },
         {
-            title: 'Git - Lower Resolution',
-            src: 'https://zencoder-temp-storage-us-east-1.s3.amazonaws.com/o/20190912/488be35a8806dc68bc32214b38b049d7/5f9cb426c1b8089c05264d28fe22395e.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAI456JQ76GBU7FECA%2F20190912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190912T050405Z&X-Amz-Expires=86399&X-Amz-SignedHeaders=host&X-Amz-Signature=6a7b0d70495d76788c084c00f37e7bb39c0e93fe44f0d352769a7c596c7a0246',
+            title: 'Git - Mobile',
+            src: 'https://zencoder-temp-storage-us-east-1.s3.amazonaws.com/o/20190912/272f86045b7b5a69865e5cfde1e0aa69/f8b70062756f16464f8682337e0c59df.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAI456JQ76GBU7FECA%2F20190912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190912T060211Z&X-Amz-Expires=85982&X-Amz-SignedHeaders=host&X-Amz-Signature=e24c157d52415a9ae9174c89ba8a41ced57124e64a47246d71fecfc0161656a6',
             type: 'video/mp4'
         },
         {
